@@ -8,7 +8,7 @@ namespace DesignPattern_Bridge
     {
         public override void MakePayment(IPaymentGateway paymentGateway)
         {
-            paymentGateway.ProcessPayment("G Pay Payment ");
+            paymentGateway.ProcessPayment("G Pay Payment processed");
         }
     }
 }
